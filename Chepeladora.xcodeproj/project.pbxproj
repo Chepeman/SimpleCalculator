@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		401BDB0915744A7300399AB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 401BDB0815744A7300399AB8 /* UIKit.framework */; };
+		401BDB0B15744A7300399AB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 401BDB0A15744A7300399AB8 /* Foundation.framework */; };
+		401BDB0D15744A7300399AB8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 401BDB0C15744A7300399AB8 /* CoreGraphics.framework */; };
+		401BDB1315744A7300399AB8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 401BDB1115744A7300399AB8 /* InfoPlist.strings */; };
+		401BDB1515744A7300399AB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 401BDB1415744A7300399AB8 /* main.m */; };
+		401BDB1915744A7300399AB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 401BDB1815744A7300399AB8 /* AppDelegate.m */; };
+		401BDB1C15744A7300399AB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 401BDB1B15744A7300399AB8 /* ViewController.m */; };
+		401BDB1F15744A7300399AB8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 401BDB1D15744A7300399AB8 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		401BDB0415744A7300399AB8 /* Chepeladora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chepeladora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		401BDB0815744A7300399AB8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		401BDB0A15744A7300399AB8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		401BDB0C15744A7300399AB8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		401BDB1015744A7300399AB8 /* Chepeladora-Info.plist */ = {isa = PBXFileReference; path = "Chepeladora-Info.plist"; sourceTree = "<group>"; };
+		401BDB1215744A7300399AB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		401BDB1415744A7300399AB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		401BDB1615744A7300399AB8 /* Chepeladora-Prefix.pch */ = {isa = PBXFileReference; path = "Chepeladora-Prefix.pch"; sourceTree = "<group>"; };
+		401BDB1715744A7300399AB8 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		401BDB1815744A7300399AB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		401BDB1A15744A7300399AB8 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		401BDB1B15744A7300399AB8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		401BDB1E15744A7300399AB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		401BDB0115744A7200399AB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401BDB0915744A7300399AB8 /* UIKit.framework in Frameworks */,
+				401BDB0B15744A7300399AB8 /* Foundation.framework in Frameworks */,
+				401BDB0D15744A7300399AB8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		401BDAF915744A7200399AB8 = {
+			isa = PBXGroup;
+			children = (
+				401BDB0E15744A7300399AB8 /* Chepeladora */,
+				401BDB0715744A7300399AB8 /* Frameworks */,
+				401BDB0515744A7300399AB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		401BDB0515744A7300399AB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				401BDB0415744A7300399AB8 /* Chepeladora.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		401BDB0715744A7300399AB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				401BDB0815744A7300399AB8 /* UIKit.framework */,
+				401BDB0A15744A7300399AB8 /* Foundation.framework */,
+				401BDB0C15744A7300399AB8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		401BDB0E15744A7300399AB8 /* Chepeladora */ = {
+			isa = PBXGroup;
+			children = (
+				401BDB1715744A7300399AB8 /* AppDelegate.h */,
+				401BDB1815744A7300399AB8 /* AppDelegate.m */,
+				401BDB1A15744A7300399AB8 /* ViewController.h */,
+				401BDB1B15744A7300399AB8 /* ViewController.m */,
+				401BDB1D15744A7300399AB8 /* ViewController.xib */,
+				401BDB0F15744A7300399AB8 /* Supporting Files */,
+			);
+			path = Chepeladora;
+			sourceTree = "<group>";
+		};
+		401BDB0F15744A7300399AB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				401BDB1015744A7300399AB8 /* Chepeladora-Info.plist */,
+				401BDB1115744A7300399AB8 /* InfoPlist.strings */,
+				401BDB1415744A7300399AB8 /* main.m */,
+				401BDB1615744A7300399AB8 /* Chepeladora-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		401BDB0315744A7200399AB8 /* Chepeladora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 401BDB2215744A7300399AB8 /* Build configuration list for PBXNativeTarget "Chepeladora" */;
+			buildPhases = (
+				401BDB0015744A7200399AB8 /* Sources */,
+				401BDB0115744A7200399AB8 /* Frameworks */,
+				401BDB0215744A7200399AB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chepeladora;
+			productName = Chepeladora;
+			productReference = 401BDB0415744A7300399AB8 /* Chepeladora.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		401BDAFB15744A7200399AB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Universidad de Guanajuato";
+			};
+			buildConfigurationList = 401BDAFE15744A7200399AB8 /* Build configuration list for PBXProject "Chepeladora" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 401BDAF915744A7200399AB8;
+			productRefGroup = 401BDB0515744A7300399AB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				401BDB0315744A7200399AB8 /* Chepeladora */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		401BDB0215744A7200399AB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401BDB1315744A7300399AB8 /* InfoPlist.strings in Resources */,
+				401BDB1F15744A7300399AB8 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		401BDB0015744A7200399AB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401BDB1515744A7300399AB8 /* main.m in Sources */,
+				401BDB1915744A7300399AB8 /* AppDelegate.m in Sources */,
+				401BDB1C15744A7300399AB8 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		401BDB1115744A7300399AB8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				401BDB1215744A7300399AB8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		401BDB1D15744A7300399AB8 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				401BDB1E15744A7300399AB8 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		401BDB2015744A7300399AB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		401BDB2115744A7300399AB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		401BDB2315744A7300399AB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chepeladora/Chepeladora-Prefix.pch";
+				INFOPLIST_FILE = "Chepeladora/Chepeladora-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		401BDB2415744A7300399AB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chepeladora/Chepeladora-Prefix.pch";
+				INFOPLIST_FILE = "Chepeladora/Chepeladora-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		401BDAFE15744A7200399AB8 /* Build configuration list for PBXProject "Chepeladora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				401BDB2015744A7300399AB8 /* Debug */,
+				401BDB2115744A7300399AB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		401BDB2215744A7300399AB8 /* Build configuration list for PBXNativeTarget "Chepeladora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				401BDB2315744A7300399AB8 /* Debug */,
+				401BDB2415744A7300399AB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 401BDAFB15744A7200399AB8 /* Project object */;
+}
